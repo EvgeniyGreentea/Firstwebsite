@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+  background: url(../img/first-bg.jpg) no-repeat center top / cover; 
+ padding-bottom: 160px;
+}
+.logo{
+    margin-top: 41px;
+    float: left;
+
+}
+.cont{
+    width: 930px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content:' ';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+div{
+     box-sizing:border-box;
+}
+nav{
+    float: right;
+    margin-top: 50px;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li{
+    float: left;
+    display: block;
+    margin-right: 41px;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.titles_first{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 180px;
+}
+h1{
+    font-size: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px ;
+}
+.buttan{
+    background: #fed136;
+    color: #484543;
+    border-radius: 3px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.title{
+ padding-top: 115px;
+}
+.title h2{
+font-size: 40px;
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+margin: 0;
+
+}
+.title p{
+color: #2777;
+text-align: center;
+font-size: 16px;
+margin-top: 5px;
+}
+.services{
+margin-top: 80px;
+}
+.services_item{
+    width: 310px;
+    float: left;
+    text-align: center;
+}
+.services_item h3{
+   font-size: 10px;
+   margin-bottom: 5px;
+}
+.services_item p{
+  color: #777777;
+  font-size: 14px;
+  line-height: 1.55em;
+}
+.services_item :last-child{
+    float: right;
+}
+.itemm3 {
+    margin-left: 0;
+}
+#portfolio{
+    background: #f7f7f7;
+}
+#services{
+    padding-bottom: 120px;
+}
+.works{
+    margin-top: 70px;
+}
+.works img{
+    float: left;
+}
+.works img:nth-child(2){
+    margin-left: 29px;
+}
+
+.works img:last-child{
+    float: right;
+}
